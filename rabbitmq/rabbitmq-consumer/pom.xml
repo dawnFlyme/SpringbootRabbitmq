@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+
+    <parent>
+        <groupId>com.zxf</groupId>
+        <artifactId>rabbitmq</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+
+    <groupId>com.zxf</groupId>
+    <artifactId>rabbitmq-consumer</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <name>rabbitmq-consumer</name>
+    <description>Demo project for Spring Boot rabbitmq-consumer</description>
+
+   <dependencies>
+       <dependency>
+           <groupId>com.zxf</groupId>
+           <artifactId>rabbitmq-model</artifactId>
+           <version>0.0.1-SNAPSHOT</version>
+       </dependency>
+   </dependencies>
+
+
+</project>
